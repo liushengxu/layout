@@ -13,6 +13,9 @@
 		CE9CA8AF1A6398D2008F0154 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9CA8AE1A6398D2008F0154 /* Images.xcassets */; };
 		CE9CA8B21A6398D2008F0154 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9CA8B01A6398D2008F0154 /* LaunchScreen.xib */; };
 		CE9CA8BE1A6398D2008F0154 /* AdaptiveLayout___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CA8BD1A6398D2008F0154 /* AdaptiveLayout___Tests.swift */; };
+		CE9CA8CA1A639D2D008F0154 /* cloud_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9CA8C71A639D2D008F0154 /* cloud_small.png */; };
+		CE9CA8CB1A639D2D008F0154 /* cloud_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9CA8C81A639D2D008F0154 /* cloud_small@2x.png */; };
+		CE9CA8CC1A639D2D008F0154 /* cloud_small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9CA8C91A639D2D008F0154 /* cloud_small@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		CE9CA8B71A6398D2008F0154 /* AdaptiveLayout教材一Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AdaptiveLayout教材一Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9CA8BC1A6398D2008F0154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE9CA8BD1A6398D2008F0154 /* AdaptiveLayout___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdaptiveLayout___Tests.swift"; sourceTree = "<group>"; };
+		CE9CA8C71A639D2D008F0154 /* cloud_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud_small.png; sourceTree = "<group>"; };
+		CE9CA8C81A639D2D008F0154 /* cloud_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud_small@2x.png"; sourceTree = "<group>"; };
+		CE9CA8C91A639D2D008F0154 /* cloud_small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud_small@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				CE9CA8AB1A6398D2008F0154 /* Main.storyboard */,
 				CE9CA8AE1A6398D2008F0154 /* Images.xcassets */,
 				CE9CA8B01A6398D2008F0154 /* LaunchScreen.xib */,
+				CE9CA8C71A639D2D008F0154 /* cloud_small.png */,
+				CE9CA8C81A639D2D008F0154 /* cloud_small@2x.png */,
+				CE9CA8C91A639D2D008F0154 /* cloud_small@3x.png */,
 				CE9CA8A51A6398D2008F0154 /* Supporting Files */,
 			);
 			path = "AdaptiveLayout教材一";
@@ -193,6 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9CA8AD1A6398D2008F0154 /* Main.storyboard in Resources */,
+				CE9CA8CB1A639D2D008F0154 /* cloud_small@2x.png in Resources */,
+				CE9CA8CA1A639D2D008F0154 /* cloud_small.png in Resources */,
+				CE9CA8CC1A639D2D008F0154 /* cloud_small@3x.png in Resources */,
 				CE9CA8B21A6398D2008F0154 /* LaunchScreen.xib in Resources */,
 				CE9CA8AF1A6398D2008F0154 /* Images.xcassets in Resources */,
 			);
