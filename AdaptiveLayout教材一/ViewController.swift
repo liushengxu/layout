@@ -12,7 +12,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        var testSwiftContacts:Array = getSysContacts()
+       
+        if testSwiftContacts.isEmpty {
+            println("no contact")
+        }
+        for contact in testSwiftContacts {
+            println(contact["FirstName"]!+"·"+contact["LastName"]!)
+        }
+
+        
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

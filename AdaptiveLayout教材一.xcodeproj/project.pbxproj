@@ -16,6 +16,7 @@
 		CE9CA8CA1A639D2D008F0154 /* cloud_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9CA8C71A639D2D008F0154 /* cloud_small.png */; };
 		CE9CA8CB1A639D2D008F0154 /* cloud_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9CA8C81A639D2D008F0154 /* cloud_small@2x.png */; };
 		CE9CA8CC1A639D2D008F0154 /* cloud_small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9CA8C91A639D2D008F0154 /* cloud_small@3x.png */; };
+		CEE7A7671A6513260018EBED /* SwiftContactTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7A7661A6513260018EBED /* SwiftContactTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		CE9CA8C71A639D2D008F0154 /* cloud_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud_small.png; sourceTree = "<group>"; };
 		CE9CA8C81A639D2D008F0154 /* cloud_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud_small@2x.png"; sourceTree = "<group>"; };
 		CE9CA8C91A639D2D008F0154 /* cloud_small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud_small@3x.png"; sourceTree = "<group>"; };
+		CEE7A7661A6513260018EBED /* SwiftContactTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftContactTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				CE9CA8A71A6398D2008F0154 /* AppDelegate.swift */,
 				CE9CA8A91A6398D2008F0154 /* ViewController.swift */,
+				CEE7A7661A6513260018EBED /* SwiftContactTool.swift */,
 				CE9CA8AB1A6398D2008F0154 /* Main.storyboard */,
 				CE9CA8AE1A6398D2008F0154 /* Images.xcassets */,
 				CE9CA8B01A6398D2008F0154 /* LaunchScreen.xib */,
@@ -226,6 +229,7 @@
 			files = (
 				CE9CA8AA1A6398D2008F0154 /* ViewController.swift in Sources */,
 				CE9CA8A81A6398D2008F0154 /* AppDelegate.swift in Sources */,
+				CEE7A7671A6513260018EBED /* SwiftContactTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +423,7 @@
 				CE9CA8C31A6398D2008F0154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE9CA8C41A6398D2008F0154 /* Build configuration list for PBXNativeTarget "AdaptiveLayout教材一Tests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				CE9CA8C61A6398D2008F0154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
